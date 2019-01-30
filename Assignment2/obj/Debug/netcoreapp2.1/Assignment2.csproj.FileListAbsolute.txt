@@ -30,3 +30,7 @@ C:\Users\Mason\Desktop\MobileAppDev\MobileAppDev\Assignment2\obj\Debug\netcoreap
 C:\Users\Mason\Desktop\MobileAppDev\MobileAppDev\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.dll
 C:\Users\Mason\Desktop\MobileAppDev\MobileAppDev\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.pdb
 C:\Users\Mason\Desktop\MobileAppDev\MobileAppDev\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.csproj.CopyComplete
+C:\Users\Mason\Desktop\MobileAppDev\MobileAppDev\Assignment2\obj\Debug\netcoreapp2.1\Razor\Views\Student\Create.g.cshtml.cs
+C:\Users\Mason\Desktop\MobileAppDev\MobileAppDev\Assignment2\obj\Debug\netcoreapp2.1\Razor\Views\Student\Delete.g.cshtml.cs
+C:\Users\Mason\Desktop\MobileAppDev\MobileAppDev\Assignment2\obj\Debug\netcoreapp2.1\Razor\Views\Student\Update.g.cshtml.cs
+C:\Users\Mason\Desktop\MobileAppDev\MobileAppDev\Assignment2\obj\Debug\netcoreapp2.1\Razor\Views\Student\Index.g.cshtml.cs
