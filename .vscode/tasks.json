@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/MobileAppDev/Assignment2/Assignment2.csproj"
+                "${workspaceFolder}/MobileAppRepo.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
