@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import EmailInput from './EmailInput';
 import PasswordInput from './PasswordInput';
+import Submit from './Submit'
+
 
 class LoginForm extends Component {
 
@@ -11,6 +13,7 @@ class LoginForm extends Component {
         this.state = {
             email: '',
             results: '',
+            password: '',
         }
 
         this.onEmailChange = this.onEmailChange.bind(this);
@@ -57,8 +60,7 @@ class LoginForm extends Component {
                 <form onSubmit={this.onFormSubmit}>
                     <EmailInput onEmailInputChange={this.onEmailChange} />
                     <PasswordInput />
-                    <button type="submit" 
-                            className="btn btn-primary">Submit</button>
+                    <Submit onClick={this.props.onClick} />
                 </form>
             </div>            
         );

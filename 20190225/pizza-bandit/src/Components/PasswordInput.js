@@ -17,18 +17,27 @@ class PasswordInput extends Component {
     }
 
     onPasswordChange(event){
-        const password = event.target.value;
+        var password = event.target.value;
 
+        //this is lifting the state value to the parent
+        this.props.onPasswordChange(password);
+
+        this.setState( () => {
+                return {
+                    password
+                }
+            }
+        );
     }
 
     render() {
         return (
             <div className="form-group">
                 <label htmlFor="exampleInputPassword1">Password</label>
-                <input className="form-control" 
-                       id="exampleInputPassword1" 
+                <input className="form-control"
+                       id="examplePassword1" 
                        onChange={this.onPasswordChange}
-                       placeholder="Password" 
+                       placeholder="password"
                        type="password"
                        value={this.state.password}  />
             </div>
